@@ -3,3 +3,24 @@
  added or staged: Git know this file exist
  commited: saving history of the file
   -->
+<!-- git reset:
+ 
+    git reset --soft:
+What it does: Moves the HEAD pointer to a specified commit.
+Effect on Staging Area: Keeps all changes in the staging area (index).
+Effect on Working Directory: Keeps all changes in the working directory.
+Use case: You want to undo a commit but keep the changes staged so that you can make adjustments and commit again.
+
+    git reset --mixed (default):
+What it does: Moves the HEAD pointer to a specified commit.
+Effect on Staging Area: Unstages all the changes that were part of the commit.
+Effect on Working Directory: Keeps all changes in the working directory.
+Use case: You want to undo a commit and unstage the changes so you can edit them before committing again.
+
+    git reset --hard:
+What it does: Moves the HEAD pointer to a specified commit.
+Effect on Staging Area: Resets the staging area to match the specified commit.
+Effect on Working Directory: Resets the working directory to match the specified commit, discarding all changes.
+Use case: You want to completely undo a commit and discard all changes that were made after that commit.
+-->
+

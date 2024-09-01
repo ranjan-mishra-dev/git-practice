@@ -5,3 +5,5 @@ main 1add: ranjan born to shine
 footer 1add: i l someone
 footer 2add: i l prachu
 main 2add: ranjan richest person on this planet 2047
+
+main 3add: ranjan named under forbes 30

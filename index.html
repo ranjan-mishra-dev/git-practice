@@ -1,25 +1,24 @@
-<!-- 
- untracked: Git not managing that file
- added or staged: Git know this file exist
- commited: saving history of the file
-  -->
-<!-- git reset:
- 
-    git reset --soft:
-What it does: Moves the HEAD pointer to a specified commit.
-Effect on Staging Area: Keeps all changes in the staging area (index).
-Effect on Working Directory: Keeps all changes in the working directory.
-Use case: You want to undo a commit but keep the changes staged so that you can make adjustments and commit again.
-
-    git reset --mixed (default):
-What it does: Moves the HEAD pointer to a specified commit.
-Effect on Staging Area: Unstages all the changes that were part of the commit.
-Effect on Working Directory: Keeps all changes in the working directory.
-Use case: You want to undo a commit and unstage the changes so you can edit them before committing again.
-
-    git reset --hard:
-What it does: Moves the HEAD pointer to a specified commit.
-Effect on Staging Area: Resets the staging area to match the specified commit.
-Effect on Working Directory: Resets the working directory to match the specified commit, discarding all changes.
-Use case: You want to completely undo a commit and discard all changes that were made after that commit.
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        <form id="workoutForm">
+            <input type="text" id="workout" placeholder="Workout Type" required>
+            <input type="number" id="duration" placeholder="Duration (minutes)" required>
+            <input type="number" id="calories" placeholder="Calories Burned" required>
+            <button type="submit">Log Workout</button>
+        </form>
+        <h2>Workout Log</h2>
+        <ul id="workoutLog"></ul>
+        <button id="clearLog">Clear Log</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

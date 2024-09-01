@@ -7,3 +7,4 @@ footer 2add: i l prachu
 main 2add: ranjan richest person on this planet 2047
 header 1add: ranjan you are really a gentle personality
 main 3add: ranjan named under forbes 30
+bin-locator 1add: find nearest me
